@@ -16,7 +16,7 @@ Projeto desenvolvido durante curso de <strong><em>"Curso de Desenvolvimento WEB 
 
 ## 🌐 Site
 
-<https://hebert-santana.github.io/js-churrascometro/>
+<https://churrascometro-vert.vercel.app/>
 
 ## Autor
 ~~~ javascript
