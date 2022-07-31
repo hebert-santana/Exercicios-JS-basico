@@ -1,4 +1,4 @@
-# Controle de Pacientes
+# Planilha de Controle de Pacientes
 
 ## Este repositório foi desenvolvido no decorrer do curso *JavaScript: Programando na linguagem da web* da escola [Alura](https://www.alura.com.br). 
 
@@ -13,6 +13,10 @@ A página apresenta uma planilha de "controle de dados de pacientes para nutrici
 * HTML
 * CSS
 * JavaScript
+
+### Página da Aplicação
+
+<https://controle-de-pacientes.vercel.app/>
 
 <hr>
 
