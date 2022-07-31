@@ -1,0 +1,102 @@
+
+body {
+    margin-top: 25px;
+    padding: 0;   
+    height: 500px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+/* BACKGROUND IMAGEM DE CHURRASCO */
+    background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)100%), url(../img/parrilla.jpg);
+    background-position: center;
+}
+
+/* modificação no container */
+
+.container{
+    font-family: Arial, Helvetica, sans-serif;
+/* limitar tamanho do container */
+    max-width: 400px;
+/* centralizar o container com recursividade*/
+    margin: auto;
+    background-color: black;
+    background-image: linear-gradient(rgba(255, 0, 0, 0.5), rgba(0, 0, 0, 0.5)50%); 
+/* inserir espaço entre o conteúdo e as bordas */
+    padding: 50px;
+/* formatar borda */
+    border-radius: 10px;
+    border-style: solid;
+    border-color:#000000;
+}
+
+/* retirar margem extra do <h1> */
+h1{
+    margin-top: 0px;
+    color: #D6B059;
+    font-size: 20px;
+    font-family: 'Quantico', sans-serif;
+}
+
+/* modificar ao mesmo tempo todos os inputs da tela */
+input{
+/* input pegar 100% da largura do elemento pai */
+    width: 100%;
+/* para não ter nada ao lado dos inputs */
+    display: block;
+/* descolar os textos das bordas */
+    padding: 5px;
+/* como a distância para as bordas do container ficaram diferentes, vamos adequar fazendo nosso 100% contar tudo */
+    box-sizing: border-box;
+/* inserindo margem entre os inputs */
+    margin-bottom: 10px;
+    border: 1.5px solid #FFF6B9;
+
+}
+
+
+.botaoEnviar{
+    width: 100px;
+    margin: auto;                   /*centralizar o botão */
+    text-align: center;
+    font-weight: bold;
+    padding: 5px;
+    border: 2px solid black;
+    border-radius: 50px;
+    background-color: #710000;
+    font-size: 12px;
+    color: #D6B059;
+}
+
+.botaoEnviar:hover{
+    background-color: #710000;
+    border: 2px solid #710000;
+    color: black;
+}
+
+footer p{
+    padding-top: 40px; /*distância para o botão calcular */ 
+    text-align: center;
+    font-size: 10pt;
+    color: #FFF6B9;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+
+#resultado{
+    color: azure;
+}
+
+footer a{
+    color: #EEAF95;
+}
+
+
+
