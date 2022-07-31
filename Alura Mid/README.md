@@ -9,9 +9,9 @@ Colocando em prática o aprendizado em Javascript, com um projeto de uma página
 * CSS
 * Javascript
 
-## 🌐 Site
+## 🌐 Página da Aplicação
 
-<https://hebert-santana.github.io/alura-grid/>
+<https://hebert-santana.github.io/alura-mid/>
 
 ## Autor
 
