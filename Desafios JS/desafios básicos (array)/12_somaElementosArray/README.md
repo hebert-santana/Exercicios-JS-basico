@@ -1,0 +1,1 @@
+Função que recebe um array 'a' e um número 'b' como parâmetros. Fazer a soma de **todos** os elementos do array com **valor maior** do que b. Retornar a soma.

@@ -1,0 +1,1 @@
+Função que recebe dois arrays como parâmetros. A função deve retornar um único array contendo os valores dos dois arrays *concatenados*, removendo valores duplicados, caso existam.

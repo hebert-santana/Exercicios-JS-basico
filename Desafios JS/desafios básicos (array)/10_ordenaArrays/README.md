@@ -1,0 +1,1 @@
+Função que recebe um array 'a' e uma flag **ordem** com valor padrão *'asc'*. Caso o valor de **ordem** seja *'asc'* a função deve retornar o array ordenado em ordem ascendente e caso seja *'desc'* retornar em ordem descendente.
