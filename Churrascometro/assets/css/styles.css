@@ -1,84 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@500&family=Poppins:wght@400;500;600&display=swap');
+
+:root {
+    --azul: #3772FF;
+    --branco: #FFFFFF;
+    --cinza:#737380;
+    --cinza-bg: #F6F6F6;
+    --preto: #000000;
+    --coral: #EEAF95;
+    --amarelo: #D6B059;
+    --vermelho: #710000;
+    --font-principal: "Poppins", sans-serif;
+    --font-secundaria: "IBM Plex Sans", sans-serif;    
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	border: none;
+	text-decoration: none;
+	box-sizing: border-box;
+    list-style: none;
+}
 
 body {
-    margin-top: 25px;
-    padding: 0;   
+    margin-top: 3rem;
     height: 500px;
-
     display: flex;
     justify-content: center;
-    align-items: center; 
-/* BACKGROUND IMAGEM DE CHURRASCO */
+    align-items: center;
     background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)100%), url(../img/parrilla.jpg);
     background-position: center;
 }
 
-/* modificação no container */
-
-.container{
-    font-family: Arial, Helvetica, sans-serif;
-/* limitar tamanho do container */
+.main {
+    font-family: var(--font-principal);
     max-width: 400px;
-/* centralizar o container com recursividade*/
-    margin: auto;
-    background-color: black;
+    background-color: var(--preto);
     background-image: linear-gradient(rgba(255, 0, 0, 0.5), rgba(0, 0, 0, 0.5)50%); 
-/* inserir espaço entre o conteúdo e as bordas */
-    padding: 50px;
-/* formatar borda */
-    border-radius: 10px;
+    padding: 4rem;
+    border-radius: .8rem;
     border-style: solid;
-    border-color:#000000;
+    border-color: var(--preto);
 }
 
-/* retirar margem extra do <h1> */
-h1{
-    margin-top: 0px;
-    color: #D6B059;
-    font-size: 20px;
-    font-family: 'Quantico', sans-serif;
+
+h1 {
+    margin: 0 auto 1rem auto;
+    color: var(--amarelo);
+    font-size: 1.5rem;
+    font-family: var(--font-secundaria);
 }
 
-/* modificar ao mesmo tempo todos os inputs da tela */
-input{
-/* input pegar 100% da largura do elemento pai */
+input {
     width: 100%;
-/* para não ter nada ao lado dos inputs */
     display: block;
-/* descolar os textos das bordas */
-    padding: 5px;
-/* como a distância para as bordas do container ficaram diferentes, vamos adequar fazendo nosso 100% contar tudo */
-    box-sizing: border-box;
-/* inserindo margem entre os inputs */
-    margin-bottom: 10px;
-    border: 1.5px solid #FFF6B9;
-
+    padding: .4rem;
+    margin-bottom: 1rem;
+    border: 1.5px solid var(--cinza-bg);
+    border-radius: 2px;
 }
 
-
-.botaoEnviar{
-    width: 100px;
-    margin: auto;                   /*centralizar o botão */
+.form__enviar {
+    width: 80%;
+    margin: auto;
     text-align: center;
     font-weight: bold;
-    padding: 5px;
-    border: 2px solid black;
-    border-radius: 50px;
-    background-color: #710000;
-    font-size: 12px;
-    color: #D6B059;
+    padding: .5rem;
+    border: 1.5px solid var(--preto);
+    border-radius: 6px;
+    background-color: var(--vermelho);
+    font-size: .8rem;
+    color: var(--amarelo);
 }
 
-.botaoEnviar:hover{
-    background-color: #710000;
-    border: 2px solid #710000;
-    color: black;
+.form__enviar:hover {
+    background-color:var(--preto);
+    border: 1.5px solid var(--branco);
+    color: var(--branco);
+    letter-spacing: 1.2px;
 }
 
-footer p{
-    padding-top: 40px; /*distância para o botão calcular */ 
+footer p {
+    padding-top: 3rem; 
     text-align: center;
-    font-size: 10pt;
-    color: #FFF6B9;
+    font-size: .8rem;
+    color: var(--cinza-bg);
 }
 
 p {
@@ -90,12 +96,12 @@ p {
 }
 
 
-#resultado{
-    color: azure;
+#form__resultado{
+    color: var(--cinza-bg);
 }
 
-footer a{
-    color: #EEAF95;
+footer a {
+    color: var(--coral);
 }
 
 
