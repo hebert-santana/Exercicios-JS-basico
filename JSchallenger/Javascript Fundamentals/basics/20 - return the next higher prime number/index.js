@@ -21,7 +21,6 @@ console.log(retornaPrimo(115));
 console.log(retornaPrimo(2000));
 
 
-//TODO função criada pelo autor:
 /* function myFunction( a ) {
   function isPrime(num) {
     for (let i = 2; i <= Math.sqrt(num); i++) {

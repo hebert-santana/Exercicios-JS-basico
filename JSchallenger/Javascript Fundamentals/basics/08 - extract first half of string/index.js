@@ -1,7 +1,3 @@
-// Write a function that takes a string (a) as argument
-// Extract the first half a
-// Return the result
-
 function cortaMetadeStr (a) {
     let tamanhoStr = a.length;
     let metadeStr = tamanhoStr/2;
