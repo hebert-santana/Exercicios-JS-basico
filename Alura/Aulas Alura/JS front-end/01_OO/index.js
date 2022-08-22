@@ -1,24 +1,17 @@
-class Cliente {
-    nome;
-    cpf;
-    agencia;
-    saldo;
-    rg;
-}
+import {Cliente} from "./Cliente.js"
+import {ContaCorrente} from "./ContaCorrente.js"
 
-const cliente1 = new Cliente();  // instanciando o Cliente
-const cliente2 = new Cliente();
+const cliente1 = new Cliente("Ricardo", 11122233309);
+const cliente2 = new Cliente("Alice", 88822233309);
 
-cliente1.nome = "Hebert";
-cliente1.cpf = 08999868621;
-cliente1.agencia = 1001;
-cliente1.saldo = 0;
-cliente1.rg = 14332281
 
-cliente2.nome = "Alice";
-cliente2.cpf = 11111111111;
-cliente2.agencia = 1001;
-cliente2.saldo = 0;
+const contaCorrenteRicardo = new ContaCorrente(1001, cliente1);
+contaCorrenteRicardo.depositar(500);
+contaCorrenteRicardo.sacar(100);
 
-console.log(cliente1);
-console.log(cliente2);
+const conta2 = new ContaCorrente(102, cliente2);
+
+let valor = 200;
+contaCorrenteRicardo.tranferir(valor, conta2);
+
+console.log(contaCorrenteRicardo);
